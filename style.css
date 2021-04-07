@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#back{
+    width: 100%;
+}
+#bienvenue{
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+#manav{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    opacity: 70%;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.op{
+    opacity: initial;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 30%;
+
+}
+.barre{
+    height: 1px;
+    width: 100%;
+    border: 2px solid gray;
+}
+.cc{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px){
+    #back{
+        height: 400px;
+        object-fit: cover;
+    }
+    #btn1{
+        width: 100%;    
+    }
+    #btn2{
+        width: 100%;    
+    }
+    #btn3{
+        width: 100%;    
+    }
+    #btn4{
+        width: 100%;    
+    }
+}
+@media only screen and (max-width: 750px){
+    #btn1{
+        width: 30%;    
+    }
+    #btn2{
+        width: 30%;    
+    }
+    #btn3{
+        width: 30%;    
+    }
+    #btn4{
+        width: 100%;    
+    }
+}
+@media only screen and (max-width: 900px){
+    #btn1{
+        width: 25%;    
+    }
+    #btn2{
+        width: 25%;    
+    }
+    #btn3{
+        width: 25%;    
+    }
+    #btn4{
+        width: 25%;    
+    }
+}
+#menu{
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+.fa-bars{
+    color: white;
+    size: 9px;
+}
